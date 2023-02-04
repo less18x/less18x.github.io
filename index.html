@@ -19,11 +19,23 @@
             position: fixed;
             color: #f20050;
             bottom: 30vh;
-            left: 23rem;
+            left: 52rem;
             text-shadow: 0 0 5px black;
             animation: text 1s linear infinite;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
+        @media (max-width: 1080px) {
+            h1 {
+                position: fixed;
+            color: #f20050;
+            bottom: 30vh;
+            left: 26rem;
+            text-shadow: 0 0 5px black;
+            animation: text 1s linear infinite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+
         @keyframes text {
             0%{
                 color: red;
@@ -86,7 +98,7 @@
         <h1>¡Feliz Cumpleaños!</h1>
     </div>
     <div class="heart"></div>
-    <audio autoplay loop controls>
+    <audio autoplay loop>
         <source src="Vicente Fernández  Las Mañanitas.mp3" type="audio/mp3">
     </audio>
     <script src="confetti.js"></script>
